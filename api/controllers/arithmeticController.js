@@ -11,7 +11,7 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    'add':      function(a,b) { return a - b }, // change this to test CI.
+    'add':      function(a,b) { return a + b }, // change this to test CI, after add npm test to azure-pipelines.yml
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
